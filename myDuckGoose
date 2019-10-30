@@ -2,20 +2,21 @@
 
   
 
-  let points = new Array(75);
+  let myArray = new Array(75);
         for (let i = 1; i <= 75; i++) {
-            points[i] = i; //This populates the array. 
+            myArray[i] = i;
+             //This populates the array. 
         }
 
  
 
   
-        for (let i = 1; i < points.length; i++) {
-          if (i % 15 === 0) (points[i] = "Goose")    //Checks to see if Divisible by 15 with a  remainder of 0. 
-          else if (i % 5 === 0) (points[i] = "Duck Duck") // If successfully it will write to the array. 
-          else if (i % 3 === 0) (points[i] = "Duck")
-          else points.push[i] = i;
-            console.log(points[i]); //This prints the values that you stored in the array
+        for (let i = 1; i < myArray.length; i++) {
+          if (i % 15 === 0) (myArray[i] = "Goose")    //Checks to see if Divisible by 15 with a  remainder of 0. 
+          else if (i % 5 === 0) (myArray[i] = "Duck Duck") // If successfully it will write to the array. 
+          else if (i % 3 === 0) (myArray[i] = "Duck")
+          else myArray.push[i] = i;
+            console.log(myArray[i]); //This prints the values that you stored in the array
         }
   
   }
